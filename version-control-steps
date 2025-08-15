@@ -13,5 +13,5 @@ sudo apt purge “kernel name”
 
 sudo apt autoclean
 
-5. Update the group
+5. Update the grub
 sudo update-grub && sudo update-grub2
