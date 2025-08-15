@@ -1,0 +1,17 @@
+1. View current kernel
+    uname -r
+
+2. View kernels 
+
+“Important: pay attention to which updated kernel is in use”
+dpkg --list | grep linux-image
+
+3. Remove the previous kernel 
+sudo apt purge “kernel name”
+
+4. Clean up
+
+sudo apt autoclean
+
+5. Update the group
+sudo update-grub && sudo update-grub2
